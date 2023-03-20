@@ -1,0 +1,51 @@
+.conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.user-text {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+}
+
+.list {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+.list li {
+    margin-bottom: 5px;
+}
+
+.list li::before {
+    content: "•";
+    margin-right: 5px;
+    color: #4caf50;
+    font-weight: bold;
+}
